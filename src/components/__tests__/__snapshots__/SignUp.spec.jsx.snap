@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp Component should call the onSignUp prop function with {email, passord} 1`] = `
+<div>
+  <h3
+    className="ui dividing header"
+  >
+    Sign Up
+  </h3>
+  <form
+    action={undefined}
+    className="ui form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="field"
+    >
+      <div
+        className="ui left icon input"
+      >
+        <i
+          aria-hidden="true"
+          className="at icon"
+        />
+        <input
+          disabled={undefined}
+          name="email"
+          onChange={[Function]}
+          placeholder="email"
+          tabIndex={undefined}
+          type="text"
+          value="test@test.com"
+        />
+      </div>
+    </div>
+    <div
+      className="field"
+    >
+      <div
+        className="ui left icon input"
+      >
+        <i
+          aria-hidden="true"
+          className="asterisk icon"
+        />
+        <input
+          disabled={undefined}
+          name="pasword"
+          onChange={[Function]}
+          placeholder="password"
+          tabIndex={undefined}
+          type="password"
+          value="1234abcd"
+        />
+      </div>
+    </div>
+    <button
+      className="ui fluid primary button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+      type="submit"
+    >
+      Sign Up
+    </button>
+  </form>
+</div>
+`;
+
+exports[`SignUp Component should render sign up 1`] = `
+<div>
+  <h3
+    className="ui dividing header"
+  >
+    Sign Up
+  </h3>
+  <form
+    action={undefined}
+    className="ui form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="field"
+    >
+      <div
+        className="ui left icon input"
+      >
+        <i
+          aria-hidden="true"
+          className="at icon"
+        />
+        <input
+          disabled={undefined}
+          name="email"
+          onChange={[Function]}
+          placeholder="email"
+          tabIndex={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="field"
+    >
+      <div
+        className="ui left icon input"
+      >
+        <i
+          aria-hidden="true"
+          className="asterisk icon"
+        />
+        <input
+          disabled={undefined}
+          name="pasword"
+          onChange={[Function]}
+          placeholder="password"
+          tabIndex={undefined}
+          type="password"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="ui fluid primary button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+      type="submit"
+    >
+      Sign Up
+    </button>
+  </form>
+</div>
+`;

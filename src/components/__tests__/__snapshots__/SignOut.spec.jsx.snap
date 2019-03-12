@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignOut Component should call the onSignOut prop function 1`] = `
+<div>
+  <h3
+    className="ui dividing header"
+  >
+    Sign Out
+  </h3>
+  <button
+    className="ui fluid primary button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+  >
+    Sign Out
+  </button>
+</div>
+`;
+
+exports[`SignOut Component should render sign up 1`] = `
+<div>
+  <h3
+    className="ui dividing header"
+  >
+    Sign Out
+  </h3>
+  <button
+    className="ui fluid primary button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+  >
+    Sign Out
+  </button>
+</div>
+`;

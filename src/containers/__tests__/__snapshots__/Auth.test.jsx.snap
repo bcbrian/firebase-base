@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Component returns develop warning if there are not children or reander props 1`] = `
+<div>
+  You did not provide a render or children prop.
+</div>
+`;
+
+exports[`Auth Component returns the user and functions to children 1`] = `
+<div>
+  Children Render Prop
+</div>
+`;
+
+exports[`Auth Component returns the user and functions to render 1`] = `
+<div>
+  Render Prop
+</div>
+`;
